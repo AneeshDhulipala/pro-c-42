@@ -55,9 +55,10 @@ function draw(){
     umbrella.display();
 
     //displaying rain drops
-    for(var i = 0; i<maxDrops; i++){
+    for(var i = 0; i<maxdrops; i++){
         drops[i].showDrop();
-        drops[i].updateY()
+        drops[i].update()
            
 }   
 
+}
